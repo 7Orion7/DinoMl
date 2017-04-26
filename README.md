@@ -39,7 +39,7 @@ Another one is that the dino position starts to "slide". I started to reload the
 
 	
 	
-####Credit
+#### Credit
 
 
 ----------
@@ -48,5 +48,9 @@ Another one is that the dino position starts to "slide". I started to reload the
 I was inspired by Ivan Seidels https://github.com/ivanseidel/IAMDinosaur implementation + video and wanted to write a clone for it. Even though some code is relatively equal especially for the inputs the sensor and the gameController Ivan Seidels implementation works heavily with callbacks( nodeJs) which I found hard to follow and understand. I use a seperate thread for learning the game that controls the flow of the program and my genomes are not neural networks instead they arte just weight and bias dicts that are then fed into the neural net together with the input. The interaction between the different modules are very different.
 	For further information see Ivan Seidels video and github for a better explanation of how it works since I'm to lazy right now.
 
+##### To Do
 
+Clean this readme file 
+Don´t need the .pyc files
+It still does not work correctly but I need it on another pc
 > Written with [StackEdit](https://stackedit.io/).
